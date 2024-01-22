@@ -1,0 +1,8 @@
+:root {
+    --purple: #c5c1ff;
+    --blue: #00cbd2;
+    --pink: #ffbac3;
+    --background: linear-gradient(-225deg, #2cd8d5 0%, #c5c1ff 56%, #ffbac3 100%);
+    --text: #333;
+    --border: #000000;
+}

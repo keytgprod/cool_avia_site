@@ -1,0 +1,34 @@
+.App {
+  background-color: var(--background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: var(--text);
+}
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  min-height: 100%;
+}
+
+.sidebar {
+  width: 35vw;
+  min-height: 100%;
+  padding: 0 10px;
+}
+
+.main {
+  flex-grow: 1; /* Растягиваем на всё оставшееся пространство */
+}
+
+.avia-button {
+  margin-left: 800px;
+}
+
+.notification {
+  color: var(--text);
+}
